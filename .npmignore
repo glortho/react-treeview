@@ -3,7 +3,6 @@
 /.npmignore
 /bower.json
 /bower_components/
-/build/
 /demos/
 /react-treeview.sublime-*
 /server.js
