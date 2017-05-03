@@ -10,9 +10,7 @@ var config = {
     path: path.join(__dirname, 'build'),
     publicPath: 'build/',
     filename: 'react-treeview.js',
-    sourceMapFilename: 'react-treeview.map',
-    library: 'TreeView',
-    libraryTarget: 'umd',
+    sourceMapFilename: 'react-treeview.map'
   },
   module: {
     loaders: [{
