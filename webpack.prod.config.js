@@ -2,15 +2,12 @@ var path = require('path');
 
 // currently, this is for bower
 var config = {
-  devtool: 'sourcemap',
   entry: {
     index: './src/react-treeview.jsx',
   },
   output: {
     path: path.join(__dirname, 'build'),
-    publicPath: 'build/',
     filename: 'react-treeview.js',
-    sourceMapFilename: 'react-treeview.map'
   },
   module: {
     loaders: [{
