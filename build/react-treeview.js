@@ -43,6 +43,7 @@ var TreeView = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (TreeView.__proto__ || Object.getPrototypeOf(TreeView)).call(this, props));
 
     _this.state = { collapsed: _this.props.defaultCollapsed };
+    _this.handleClick = _this.handleClick.bind(_this);
     return _this;
   }
 

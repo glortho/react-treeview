@@ -14,6 +14,7 @@ export default class TreeView extends React.Component {
   constructor( props ) {
     super( props );
     this.state = { collapsed: this.props.defaultCollapsed };
+    this.handleClick = this.handleClick.bind( this );
   }
 
   handleClick(...args) {
